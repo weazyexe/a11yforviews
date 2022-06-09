@@ -1,11 +1,29 @@
 package dev.weazyexe.a11yforviews
 
+import android.app.Activity
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.ComponentActivity
+import dev.weazyexe.a11yforviews.databinding.ActivityMainBinding
+import dev.weazyexe.a11yforviews.text.TextActivity
 
 class MainActivity : ComponentActivity() {
+
+    private val binding by lazy { ActivityMainBinding.inflate(layoutInflater) }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(binding.root)
+        initListeners()
+    }
+
+    private fun initListeners() = with(binding) {
+        textButton.setOnClickListener { openActivity(TextActivity::class.java) }
+    }
+
+    private fun <T : Activity> openActivity(activityClass: Class<T>) {
+        Intent(this, activityClass).apply {
+            startActivity(this)
+        }
     }
 }
