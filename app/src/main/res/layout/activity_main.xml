@@ -9,7 +9,7 @@
 
     <Button
         android:id="@+id/text_button"
-        style="@style/ThemeOverlay.Material3.Button.TonalButton"
+        style="@style/Widget.Material3.Button.TonalButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -17,7 +17,7 @@
         android:text="Text" />
 
     <Button
-        style="@style/ThemeOverlay.Material3.Button.TonalButton"
+        style="@style/Widget.Material3.Button.TonalButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -25,7 +25,7 @@
         android:text="Contrast" />
 
     <Button
-        style="@style/ThemeOverlay.Material3.Button.TonalButton"
+        style="@style/Widget.Material3.Button.TonalButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -33,7 +33,7 @@
         android:text="Focus order" />
 
     <Button
-        style="@style/ThemeOverlay.Material3.Button.TonalButton"
+        style="@style/Widget.Material3.Button.TonalButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -41,7 +41,7 @@
         android:text="Content Descriptions" />
 
     <Button
-        style="@style/ThemeOverlay.Material3.Button.TonalButton"
+        style="@style/Widget.Material3.Button.TonalButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
