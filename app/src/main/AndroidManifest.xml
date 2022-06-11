@@ -23,6 +23,7 @@
         </activity>
 
         <activity android:name=".text.TextActivity" />
+        <activity android:name=".contrast.ContrastActivity" />
 
     </application>
 
