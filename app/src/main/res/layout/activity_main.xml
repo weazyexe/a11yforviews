@@ -34,15 +34,7 @@
         android:text="Focus order" />
 
     <Button
-        android:id="@+id/content_descriptions_button"
-        style="@style/Widget.Material3.Button.TonalButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="8dp"
-        android:text="Content Descriptions" />
-
-    <Button
+        android:id="@+id/custom_views_button"
         style="@style/Widget.Material3.Button.TonalButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

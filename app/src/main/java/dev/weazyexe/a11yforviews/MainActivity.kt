@@ -6,6 +6,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.WindowCompat
 import dev.weazyexe.a11yforviews.contrast.ContrastActivity
+import dev.weazyexe.a11yforviews.customviews.CustomViewsActivity
 import dev.weazyexe.a11yforviews.databinding.ActivityMainBinding
 import dev.weazyexe.a11yforviews.text.TextActivity
 
@@ -23,6 +24,7 @@ class MainActivity : AppCompatActivity() {
     private fun initListeners() = with(binding) {
         textButton.setOnClickListener { openActivity(TextActivity::class.java) }
         contrastButton.setOnClickListener { openActivity(ContrastActivity::class.java) }
+        customViewsButton.setOnClickListener { openActivity(CustomViewsActivity::class.java) }
     }
 
     private fun <T : Activity> openActivity(activityClass: Class<T>) {
