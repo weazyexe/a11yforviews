@@ -2,6 +2,10 @@
     <string name="app_name">a11y for views</string>
     <string name="wallet_card_deposit">Deposit</string>
     <string name="wallet_card_transfer">Transfer</string>
+    <string name="wallet_card_accessibility_description">Wallet card: %s, balance is %s</string>
+    <string name="wallet_card_accessibility_card_click_action">View wallet details</string>
+    <string name="wallet_card_accessibility_show_qr_code_action">Show address QR code</string>
+    <string name="wallet_card_accessibility_copy_the_address_action">Copy the wallet address</string>
 
     <string name="wallet_title">Main Wallet</string>
     <string name="wallet_balance">ETH 51.7075000194</string>
