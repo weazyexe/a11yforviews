@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:background="@drawable/switch_background"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/deposit_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_weight="1"
+        android:background="@drawable/switch_item_selector"
+        android:text="@string/operation_switch_deposit_label"
+        android:textColor="?colorPrimary" />
+
+    <Button
+        android:id="@+id/transfer_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_weight="1"
+        android:background="@drawable/switch_item_selector"
+        android:text="@string/operation_switch_transfer_label"
+        android:textColor="?colorPrimary" />
+
+</LinearLayout>
