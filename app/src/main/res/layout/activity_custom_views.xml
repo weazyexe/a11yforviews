@@ -10,6 +10,9 @@
         android:layout_marginTop="32dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:wallet_card_address="@string/wallet_address"
+        app:wallet_card_balance="@string/wallet_balance"
+        app:wallet_card_title="@string/wallet_title" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     style="?attr/materialCardViewElevatedStyle"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -19,19 +20,19 @@
             style="@style/TextAppearance.Material3.BodyLarge"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Main wallet"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Main wallet" />
 
         <TextView
             android:id="@+id/balance_tv"
             style="@style/TextAppearance.Material3.HeadlineLarge"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ETH 51.7075000194"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/title_tv" />
+            app:layout_constraintTop_toBottomOf="@id/title_tv"
+            tools:text="ETH 51.7075000194" />
 
         <TextView
             android:id="@+id/address_tv"
@@ -41,9 +42,9 @@
             android:ellipsize="middle"
             android:maxEms="11"
             android:maxLines="1"
-            android:text="0xAb5801a7D398351b8bE11C439e05C5B3259aeC9B"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/balance_tv" />
+            app:layout_constraintTop_toBottomOf="@id/balance_tv"
+            tools:text="0xAb5801a7D398351b8bE11C439e05C5B3259aeC9B" />
 
         <ImageButton
             android:id="@+id/qr_code_button"
@@ -62,7 +63,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
-            android:text="Deposit"
+            android:text="@string/wallet_card_deposit"
             app:icon="@drawable/ic_arrow_downward"
             app:layout_constraintBaseline_toBaselineOf="@id/transfer_button"
             app:layout_constraintStart_toEndOf="@id/transfer_button" />
@@ -73,7 +74,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="48dp"
-            android:text="Transfer"
+            android:text="@string/wallet_card_transfer"
             app:icon="@drawable/ic_arrow_upward"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
