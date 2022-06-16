@@ -16,13 +16,13 @@
         app:wallet_card_balance="@string/wallet_balance"
         app:wallet_card_title="@string/wallet_title" />
 
-    <dev.weazyexe.a11yforviews.customviews.OperationSwitch
+    <!--<dev.weazyexe.a11yforviews.customviews.OperationSwitch
         android:id="@+id/operation_switch"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/wallet_card" />
+        app:layout_constraintTop_toBottomOf="@id/wallet_card" />-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

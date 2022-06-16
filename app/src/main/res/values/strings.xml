@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">a11y for views</string>
+
+    <string name="role_description_switch">Switch</string>
+
     <string name="wallet_card_deposit">Deposit</string>
     <string name="wallet_card_transfer">Transfer</string>
     <string name="wallet_card_accessibility_description">Wallet card: %s, balance is %s</string>
@@ -13,4 +16,6 @@
 
     <string name="operation_switch_deposit_label">Deposit</string>
     <string name="operation_switch_transfer_label">Transfer</string>
+    <string name="operation_switch_accessibility_description">Operation type</string>
+    <string name="operation_switch_accessibility_toggle_action">Toggle</string>
 </resources>
