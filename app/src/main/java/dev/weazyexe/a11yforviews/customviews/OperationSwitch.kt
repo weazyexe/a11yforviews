@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.widget.Button
 import android.widget.FrameLayout
+import android.widget.Switch
 import androidx.core.view.AccessibilityDelegateCompat
 import androidx.core.view.ViewCompat
 import androidx.core.view.accessibility.AccessibilityNodeInfoCompat
@@ -80,7 +81,11 @@ class OperationSwitch @JvmOverloads constructor(
                     info: AccessibilityNodeInfoCompat
                 ) {
                     super.onInitializeAccessibilityNodeInfo(host, info)
-                    info.roleDescription = context.getString(R.string.role_description_switch)
+                    info.className = Switch::class.java.name
+
+                    // Если у вас кастомный компонент,
+                    // не имеющий аналогов в стандартной библиотеке
+                    // info.roleDescription = context.getString(R.string.role_description_switch)
                 }
             }
         )

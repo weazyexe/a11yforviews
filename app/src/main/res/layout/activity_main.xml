@@ -26,12 +26,22 @@
         android:text="Contrast" />
 
     <Button
+        android:id="@+id/focus_order_button"
         style="@style/Widget.Material3.Button.TonalButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="8dp"
-        android:text="Focus order" />
+        android:text="Focus Order" />
+
+    <Button
+        android:id="@+id/live_region_button"
+        style="@style/Widget.Material3.Button.TonalButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:text="Live Region" />
 
     <Button
         android:id="@+id/custom_views_button"

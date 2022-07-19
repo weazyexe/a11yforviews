@@ -25,6 +25,8 @@
         <activity android:name=".text.TextActivity" />
         <activity android:name=".contrast.ContrastActivity" />
         <activity android:name=".customviews.CustomViewsActivity" />
+        <activity android:name=".traversal.TraversalActivity" />
+        <activity android:name=".liveregion.LiveRegionActivity" />
 
     </application>
 

@@ -8,7 +8,9 @@ import androidx.core.view.WindowCompat
 import dev.weazyexe.a11yforviews.contrast.ContrastActivity
 import dev.weazyexe.a11yforviews.customviews.CustomViewsActivity
 import dev.weazyexe.a11yforviews.databinding.ActivityMainBinding
+import dev.weazyexe.a11yforviews.liveregion.LiveRegionActivity
 import dev.weazyexe.a11yforviews.text.TextActivity
+import dev.weazyexe.a11yforviews.traversal.TraversalActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -25,6 +27,8 @@ class MainActivity : AppCompatActivity() {
         textButton.setOnClickListener { openActivity(TextActivity::class.java) }
         contrastButton.setOnClickListener { openActivity(ContrastActivity::class.java) }
         customViewsButton.setOnClickListener { openActivity(CustomViewsActivity::class.java) }
+        focusOrderButton.setOnClickListener { openActivity(TraversalActivity::class.java) }
+        liveRegionButton.setOnClickListener { openActivity(LiveRegionActivity::class.java) }
     }
 
     private fun <T : Activity> openActivity(activityClass: Class<T>) {

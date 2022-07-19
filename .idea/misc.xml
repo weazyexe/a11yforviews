@@ -9,8 +9,10 @@
         <entry key="app/src/main/res/layout/activity_content_descriptions.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_contrast.xml" value="0.375" />
         <entry key="app/src/main/res/layout/activity_custom_views.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_live_region.xml" value="0.2424112868747328" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_text.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_traversal.xml" value="0.2424112868747328" />
         <entry key="app/src/main/res/layout/view_operation_switch.xml" value="0.2543822146216332" />
         <entry key="app/src/main/res/layout/view_wallet_card.xml" value="0.25" />
       </map>
